@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  .list_items {
+    flex: 1;
+    padding: 1rem;
+  }
+  .preview {
+    flex: 2;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      text-transform: capitalize;
+      margin-top: 0;
+    }
+    p {
+      text-align: center;
+    }
+    button {
+      font-size: 1rem;
+    }
+  }
+  ul {
+
+  }
+}
