@@ -10,7 +10,7 @@
     "build:client": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --config webpack/client.prod.js --progress",
     "start": "cd server && node bin/server.js",
     "lint": "eslint --ext .jsx,.js ./",
-    "heroku-postbuild": "node node_modules/gulp/bin/gulp build"
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
