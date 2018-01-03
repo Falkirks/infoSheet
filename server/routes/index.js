@@ -10,5 +10,5 @@ app.use(express.static('public'));
 app.use('/*', ssr);
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log('Hello World listening on port 3000!');
+  console.log('Hello World listening on port ' + (process.env.PORT || 3000));
 });
